@@ -209,6 +209,19 @@ img {
   margin-right: 30px;
 }
 
+.features-img {
+  margin-bottom: 30px;
+  padding: 20px 100px;
+  text-align: center;
+
+  background-color: var(--additional-background-color);
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -288,7 +301,7 @@ img {
 }
 
 .team-content {
-  padding: 30px 0;
+  padding: 30px 32px;
   text-align: center;
 }
 
@@ -305,11 +318,45 @@ img {
 
 .team-text {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.social-link:hover,
+.social-link:active {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: red;
+}
+
+/* .social-icon:hover,
+.social-icon:focus {
+  fill: var(--primary-bg-color);
+} */
 
 /* Страница портфолио */
 
