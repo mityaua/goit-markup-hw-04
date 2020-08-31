@@ -414,9 +414,9 @@ img {
 }
 
 .clients-item {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: calc((100% - 30px * 5) / 6);
   height: 90px;
 
@@ -431,6 +431,14 @@ img {
 
 .clients-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
 }
 
 .clients-icon {
