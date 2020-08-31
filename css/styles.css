@@ -373,7 +373,7 @@ img {
 }
 
 .social-link:hover,
-.social-link:active {
+.social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
