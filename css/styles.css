@@ -3,6 +3,7 @@
 /* цвет фона #FFFFFF */
 /* вторичный цвет фона #2f303a */
 /* дополнительный цвет фона #f5f4fa */
+/* svg цвет */
 /* акцент #2196F3 */
 
 :root {
@@ -12,6 +13,7 @@
   --primary-bg-color: #ffffff;
   --second-bg-color: #2f303a;
   --additional-background-color: #f5f4fa;
+  --svg-color: #afb1b8;
 }
 
 body {
@@ -285,6 +287,10 @@ img {
 }
 
 .photos-item {
+  background-color: var(--primary-text-color);
+}
+
+.photos-item {
   width: calc((100% - 60px) / 3);
 }
 
@@ -323,7 +329,7 @@ img {
 .team-item {
   width: calc((100% - 90px) / 4);
 
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-bottom-right-radius: 4px;
@@ -390,7 +396,7 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--svg-color);
 }
 
 /* Секция Постоянные клиенты */
@@ -421,7 +427,7 @@ img {
   width: calc((100% - 30px * 5) / 6);
   height: 90px;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--svg-color);
   border-radius: 4px;
 }
 
@@ -450,7 +456,7 @@ img {
 .clients-icon {
   width: 44px;
   height: 49px;
-  fill: #afb1b8;
+  fill: var(--svg-color);
 }
 
 /* Страница портфолио */
@@ -670,7 +676,7 @@ img {
   width: 20px;
   height: 20px;
 
-  fill: #afb1b8;
+  fill: var(--svg-color);
 }
 
 .network-title {
