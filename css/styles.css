@@ -404,7 +404,8 @@ img {
   fill: var(--primary-bg-color);
 }
 
-.social-icon {
+.social-icon,
+.network-icon {
   width: 20px;
   height: 20px;
   fill: var(--svg-color);
@@ -684,12 +685,12 @@ img {
   fill: var(--additional-background-color);
 }
 
-.network-icon {
+/* .network-icon {
   width: 20px;
   height: 20px;
 
   fill: var(--svg-color);
-}
+} */
 
 .network-title {
   /* margin-top: 0; */
